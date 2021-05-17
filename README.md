@@ -1,4 +1,7 @@
 # poppity-zoppity-quizity-frizzlety
+## Link to Deployed GitHub IO
+
+https://atommielcarek.github.io/poppity-zoppity-quizity-frizzlety/
 
 ## User Story
 
