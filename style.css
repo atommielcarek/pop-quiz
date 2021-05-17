@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: grey;
+}
+
+section{
+    background-color: rgb(255, 82, 82);
+    border: solid 2px rgb(255, 255, 255);
+    padding: 10px;
+}
+.hide {
+    display: none;
+
+}
+
+.show {
+    display: block;
+}
+h1{
+    text-align:justify;
+}
+
+p{
+    padding: 0 10%;
+}
+
+
+#startButton{
+    display: block;
+    margin: 0 auto;
+}
+
+.choice{
+    display: block;
+    margin-top: 10px;
+}

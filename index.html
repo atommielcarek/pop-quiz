@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Scripto or Crypto?</title>
+    
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="row">
+            <div class="col-md-6" id="Highscores">
+                <a href="./scoreboard.html">Scoreboard</a>
+            </div>
+            <div class="col-md-6" id="timer">
+                Time: <span id="time">0</span>
+            </div>
+
+        </header>
+
+        <section id="title-section" class="show">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Let's get Scripty</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Test your knowledge of JavaScript functions! Keep an eye on the timer and be certain of your responses, incorrect answers will result in a ten second penalty!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <button id="startButton">Let's Play</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="quiz-section" class="hide">
+            <div class="row">
+                <div class="col-md-12 questions">
+                    <h3 id="question-title"></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="choices"></div>
+                <div id="feedback" class="feedback hide"></div>
+            </div>
+        </section>
+
+        <section id="highscore-section" class="hide">
+            <div class="row">
+                <div id="high-score" class="col-md-12">
+                    <h2>All done!</h2>
+                    <h3>Your final score is <span id="final-score">0</span></h3>
+                    <label for="initials-area">Enter your initials:</label>
+                    <input type="text" name="initials-area" maxlength="2" id="initials">
+                   <a href="scoreboard.html"><button id="submit-button" type="submit">Submit</button></a>
+                </div>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="questions.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="scoreboard.js"></script>
+
+</body>
+
+</html>
