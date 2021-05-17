@@ -23,3 +23,7 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 ```
+![image](https://user-images.githubusercontent.com/81640301/118435133-8c011780-b69b-11eb-9c41-9ac8aa8b18aa.png)
+
+
+Coding quiz presents user with a simple interactive web page that tracks their score and stores said score in local storage.
